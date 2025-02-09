@@ -41,6 +41,7 @@ const nest = new Nest({
     refreshToken: "YOUR_REFRESH_TOKEN",
     apiKey: "YOUR_API_KEY",
     clientId: "YOUR_CLIENT_ID"
+    nexusHost: "https://nexusapi-us1.dropcam.com" // or https://nexusapi-eu1.dropcam.com
 });
 
 nest.init().then(() => {
@@ -251,6 +252,7 @@ const options = {
     clientId: '...',
     refreshToken: '...',
     apiKey: '...',
+    nexusHost: "https://nexusapi-us1.dropcam.com" // or https://nexusapi-eu1.dropcam.com
     eventInterval: 9000,
     snapshotInterval: 3000
 };
@@ -277,6 +279,7 @@ const nest = new Nest({
     refreshToken: "YOUR_REFRESH_TOKEN",
     apiKey: "YOUR_API_KEY",
     clientId: "YOUR_CLIENT_ID"
+    nexusHost: "https://nexusapi-us1.dropcam.com" // or https://nexusapi-eu1.dropcam.com
 });
 
 nest.init().then(() => {
@@ -296,6 +299,7 @@ const nest = new Nest({
     refreshToken: "YOUR_REFRESH_TOKEN",
     apiKey: "YOUR_API_KEY",
     clientId: "YOUR_CLIENT_ID"
+    nexusHost: "https://nexusapi-us1.dropcam.com" // or https://nexusapi-eu1.dropcam.com
 });
 
 nest.init().then(() => {
@@ -318,6 +322,7 @@ const nest = new Nest({
     nestId: "YOUR_NEST_ID",
     refreshToken: "YOUR_REFRESH_TOKEN",
     apiKey: "YOUR_API_KEY",
+    nexusHost: "https://nexusapi-us1.dropcam.com" // or https://nexusapi-eu1.dropcam.com
     clientId: "YOUR_CLIENT_ID",
     eventInterval: 1000,
     snapshotInterval: 2000
@@ -340,6 +345,7 @@ const nest = new Nest({
     refreshToken: "YOUR_REFRESH_TOKEN",
     apiKey: "YOUR_API_KEY",
     clientId: "YOUR_CLIENT_ID"
+    nexusHost: "https://nexusapi-us1.dropcam.com" // or https://nexusapi-eu1.dropcam.com
 });
 
 nest.init().then(() => {
@@ -361,6 +367,7 @@ const nest = new Nest({
     refreshToken: "YOUR_REFRESH_TOKEN",
     apiKey: "YOUR_API_KEY",
     clientId: "YOUR_CLIENT_ID"
+    nexusHost: "https://nexusapi-us1.dropcam.com" // or https://nexusapi-eu1.dropcam.com
 });
 
 nest.init().then(() => {
@@ -389,7 +396,8 @@ const nest = new Nest({
     refreshToken: "YOUR_REFRESH_TOKEN",
     apiKey: "YOUR_API_KEY",
     clientId: "YOUR_CLIENT_ID",
-    snapshotInterval: 20000 // Fetch a new image every 20 seconds 
+    nexusHost: "https://nexusapi-us1.dropcam.com" // or https://nexusapi-eu1.dropcam.com
+    snapshotInterval: 20000 // Fetch a new image every 20 seconds
 });
 
 nest.init().then(() => {
