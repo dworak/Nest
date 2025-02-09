@@ -40,7 +40,7 @@ const nest = new Nest({
     nestId: "YOUR_NEST_ID",
     refreshToken: "YOUR_REFRESH_TOKEN",
     apiKey: "YOUR_API_KEY",
-    clientId: "YOUR_CLIENT_ID"
+    clientId: "YOUR_CLIENT_ID",
     nexusHost: "https://nexusapi-us1.dropcam.com" // or https://nexusapi-eu1.dropcam.com
 });
 
@@ -278,7 +278,7 @@ const nest = new Nest({
     nestId: "YOUR_NEST_ID",
     refreshToken: "YOUR_REFRESH_TOKEN",
     apiKey: "YOUR_API_KEY",
-    clientId: "YOUR_CLIENT_ID"
+    clientId: "YOUR_CLIENT_ID",
     nexusHost: "https://nexusapi-us1.dropcam.com" // or https://nexusapi-eu1.dropcam.com
 });
 
@@ -298,7 +298,7 @@ const nest = new Nest({
     nestId: "YOUR_NEST_ID",
     refreshToken: "YOUR_REFRESH_TOKEN",
     apiKey: "YOUR_API_KEY",
-    clientId: "YOUR_CLIENT_ID"
+    clientId: "YOUR_CLIENT_ID",
     nexusHost: "https://nexusapi-us1.dropcam.com" // or https://nexusapi-eu1.dropcam.com
 });
 
@@ -344,7 +344,7 @@ const nest = new Nest({
     nestId: "YOUR_NEST_ID",
     refreshToken: "YOUR_REFRESH_TOKEN",
     apiKey: "YOUR_API_KEY",
-    clientId: "YOUR_CLIENT_ID"
+    clientId: "YOUR_CLIENT_ID",
     nexusHost: "https://nexusapi-us1.dropcam.com" // or https://nexusapi-eu1.dropcam.com
 });
 
